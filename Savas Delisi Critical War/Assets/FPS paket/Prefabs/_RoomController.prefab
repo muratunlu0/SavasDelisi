@@ -1,0 +1,515 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &144474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 413608}
+  - component: {fileID: 11481390}
+  - component: {fileID: 11429254}
+  - component: {fileID: 11441992}
+  - component: {fileID: 11407376}
+  - component: {fileID: 11405568}
+  - component: {fileID: 11471002}
+  - component: {fileID: 11409570}
+  m_Layer: 0
+  m_Name: _RoomController
+  m_TagString: Respawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &152754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 497708}
+  - component: {fileID: 2048716}
+  - component: {fileID: 12489838}
+  - component: {fileID: 9241948}
+  - component: {fileID: 8114074}
+  - component: {fileID: 11458750}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &413608
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144474}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 497708}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &497708
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152754}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 413608}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &2048716
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152754}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &8114074
+AudioListener:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152754}
+  m_Enabled: 1
+--- !u!92 &9241948
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152754}
+  m_Enabled: 1
+--- !u!114 &11405568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f4ef257f5ab694b8ea669491375851, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lastSelectedWeapon: 0
+  buySection: 0
+--- !u!114 &11407376
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e5f4802fe4d97644bd01f1f83c4bd57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  chatState: 0
+  messages: []
+--- !u!114 &11409570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbaad6afab2259d4eb846a1086c2085c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whiteTexture: {fileID: 21300000, guid: fe129325b5fea3f43897904792e37785, type: 3}
+  hitDetectorTexture: {fileID: 21300000, guid: 4f0318ccad8619d4cbddb284caf87525, type: 3}
+  navigationCircle: {fileID: 21300000, guid: bb449b29e75f3e44e9cb18034c1a9271, type: 3}
+  navigationButton: {fileID: 21300000, guid: 009e5962d71286a4aaaacc30122fcffd, type: 3}
+  silahdegistir: 0
+  "oyuni\xE7i\u015Fim\u015Fek": 0
+  "\xF6ld\xFCren_kisi": {fileID: 0}
+  "\xF6len_kisi": {fileID: 0}
+--- !u!114 &11429254
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69b4ef0f0bd2daf418a8abb4b606b1cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerPrefab: {fileID: 102962, guid: c177db71402ee5841b70d2110b54c27e, type: 2}
+  welcomeCamera: {fileID: 2048716}
+  buySound: {fileID: 8300000, guid: 522a39eef8c048a44a08a4d66c60a9f6, type: 3}
+  cashRegisterSound: {fileID: 8300000, guid: 6dbd2d01ed5e6c445afa44d9a6e607ab, type: 3}
+  birincil11: 0
+  birincil22: 0
+  birincil33: 0
+  ikincil11: 0
+  bicak11: 0
+  teamASpawnPoints: []
+  teamBSpawnPoints: []
+  spectatorNames: 
+  showScoreBoard: 0
+  eneteredBuySpot: 0
+  leavingRoom: 0
+  showFPS: 1
+  showBuyMenu: 0
+  showOptions: 0
+  ourPlayer: {fileID: 0}
+  otherPlayers: []
+  distance: 0
+  redScreenFade: 0
+  hitTopFade: 0
+  hitBottomFade: 0
+  hitLeftFade: 0
+  hitRightFade: 0
+  doingHitDetector: 0
+  currentRoundTime: 0
+  roundTimeString: 00:00
+  teamAScore: 0
+  teamBScore: 0
+  ourTeam: 0
+  currentGameMode: 
+  currentRespawnTime: -1
+  currentGameStatus: 0
+  currentKillLimit: 0
+  totalCash: 0
+  currentHP: 0
+  scoreToAddTmp: + 100
+  currentAddingCashColor: {r: 0, g: 0, b: 0, a: 0}
+  currentTotalCashColor: {r: 0, g: 0, b: 0, a: 0}
+  actionReports: []
+  mc: {fileID: 0}
+  os: {fileID: 0}
+  timeToPurchase: 0
+--- !u!114 &11441992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6443d92a9021ba43b037676dd93e825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rc: {fileID: 0}
+  oyunsonuharita: {fileID: 0}
+  oyunsonumod: {fileID: 0}
+  "toplam_\xF6ld\xFCrme_kd": 0
+  "toplam_\xF6lme_kd": 0
+  "oyuni\xE7itextparas\u0131": 0
+  kdoraniy: {fileID: 0}
+  "kdge\xE7ici": 0
+  oyunpuaniy: {fileID: 0}
+  oyunparasiy: {fileID: 0}
+  "kupasay\u0131siy": {fileID: 0}
+  "oyunpuanige\xE7ici": 0
+  aimbutonu: {fileID: 0}
+  silahdegistir_: 0
+  "\xF6l\xFCmsay\u0131s\u0131gecici": 0
+  "\xF6ld\xFCrmesay\u0131s\u0131gecici": 0
+  "\xF6l\xFCmsay\u0131s\u0131_": 0
+  "\xF6ld\xFCrmesay\u0131s\u0131_": 0
+  "oyuni\xE7i\xF6ld\xFCrme": 0
+  "oyuni\xE7i\xF6lme": 0
+  oyuncuname: 
+  "kazanantak\u0131m_ismi": {fileID: 0}
+  "kd_oran\u0131": 0
+  "kupa_ald\u0131m\u0131": 0
+  bildirim_kutusu1: {fileID: 0}
+  bildirim_kutusu2: {fileID: 0}
+  bildirim_kutusu3: {fileID: 0}
+  "\xF6ld\xFCren_kisi": {fileID: 0}
+  "\xF6len_kisi": {fileID: 0}
+  "tak\u0131mskorlar\u0131": []
+  ctrengi: {r: 0, g: 0, b: 0, a: 0}
+  skorsag5: []
+  zaman: {fileID: 0}
+  maviskor: {fileID: 0}
+  "k\u0131rm\u0131z\u0131skor": {fileID: 0}
+  hangisilahta: []
+  hptextt: {fileID: 0}
+  cashtextt: {fileID: 0}
+  weaponandammotextfelan: {fileID: 0}
+  "oyunodas\u0131_ismi": {fileID: 0}
+  "oyuncusay\u0131s\u0131": {fileID: 0}
+  ffa_yenidenbaslamasuresi: {fileID: 0}
+  "oyuni\xE7i\xF6ld\xFCrmeyazisi": {fileID: 0}
+  "oyuni\xE7i\xF6lmeyazisi": {fileID: 0}
+  "tak\u0131msecmecanvas\u0131": {fileID: 0}
+  controlkanvasi: {fileID: 0}
+  "Y\xDCKLEMECANVASI": {fileID: 0}
+  "ffa_kazanancanvas\u0131": {fileID: 0}
+  "se\xE7eneklercanvas\u0131": {fileID: 0}
+  "scoreboardcanvas\u0131": {fileID: 0}
+  ffa_kazananisim: {fileID: 0}
+  "tak\u0131mdegsitirmetusu": {fileID: 0}
+  ffanotu: {fileID: 0}
+  "birincitak\u0131m_\u0130S\u0130M": []
+  "birincitak\u0131m_\xD6LD\xDCRME": []
+  "birincitak\u0131m_\xD6L\xDCM": []
+  "birincitak\u0131m_P\u0130NG": []
+  oyuncuismi: {fileID: 0}
+  "tdm_\u0130S\u0130M": []
+  "tdm_\xD6LD\xDCRME": []
+  "tdm_\xD6L\xDCM": []
+  "tdm_P\u0130NG": []
+  "birincitak\u0131msecildi": 0
+  "ikincitak\u0131msecildi": 0
+  oyunmodu: 0
+  "ikincitak\u0131m_\u0130S\u0130M": []
+  "ikincitak\u0131m_\xD6LD\xDCRME": []
+  "ikincitak\u0131m_\xD6L\xDCM": []
+  "ikincitak\u0131m_P\u0130NG": []
+  "oyuncusay\u0131_a": 0
+  "oyuncusay\u0131_b": 0
+  bos_A: 0
+  bos_B: 0
+  "tak\u0131msecmebutonu_A": {fileID: 0}
+  "tak\u0131msecmebutonu_B": {fileID: 0}
+  "hangitak\u0131mda": {fileID: 0}
+--- !u!114 &11458750
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56cd253b93ed3b3429acfdc290b86e29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axes: 2
+  target: {fileID: 0}
+--- !u!114 &11471002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 116c5ade34831e0469b52b701ca26b18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sliderhassasiyet: {fileID: 0}
+  cm: {fileID: 0}
+  rc: {fileID: 0}
+--- !u!114 &11481390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownerId: 0
+  group: 0
+  prefixBackup: -1
+  observed: {fileID: 0}
+  synchronization: 0
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  ownershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 0}
+  ObservedComponentsFoldoutOpen: 1
+  viewIdField: 0
+  instantiationId: -1
+  isRuntimeInstantiated: 0
+--- !u!124 &12489838
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152754}
+  m_Enabled: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: welcomeCamera
+      value: 
+      objectReference: {fileID: 2048716}
+    - target: {fileID: 0}
+      propertyPath: playerPrefab
+      value: 
+      objectReference: {fileID: 102962, guid: c177db71402ee5841b70d2110b54c27e, type: 2}
+    - target: {fileID: 0}
+      propertyPath: guiSKin
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: blackScreen
+      value: 
+      objectReference: {fileID: 2800000, guid: aa7db4f47ac44bb4699a5268d5509620, type: 3}
+    - target: {fileID: 0}
+      propertyPath: white
+      value: 
+      objectReference: {fileID: 2800000, guid: 0f26609c9814995469b252cb46730dd2, type: 3}
+    - target: {fileID: 0}
+      propertyPath: crosshairTexture
+      value: 
+      objectReference: {fileID: 2800000, guid: 0f26609c9814995469b252cb46730dd2, type: 3}
+    - target: {fileID: 0}
+      propertyPath: hitBottom
+      value: 
+      objectReference: {fileID: 2800000, guid: eddb0bb26030b204bac1da6f3ec9e789, type: 3}
+    - target: {fileID: 0}
+      propertyPath: hitTop
+      value: 
+      objectReference: {fileID: 2800000, guid: 4f0318ccad8619d4cbddb284caf87525, type: 3}
+    - target: {fileID: 0}
+      propertyPath: hitLeft
+      value: 
+      objectReference: {fileID: 2800000, guid: d3b7b00c8f6edec4aa04153f03a118b0, type: 3}
+    - target: {fileID: 0}
+      propertyPath: hitRight
+      value: 
+      objectReference: {fileID: 2800000, guid: 66b9d6754cd57e142842f32ba6819bb6, type: 3}
+    - target: {fileID: 0}
+      propertyPath: whiteTexture
+      value: 
+      objectReference: {fileID: 21300000, guid: fe129325b5fea3f43897904792e37785,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: buySound
+      value: 
+      objectReference: {fileID: 8300000, guid: 522a39eef8c048a44a08a4d66c60a9f6, type: 3}
+    - target: {fileID: 0}
+      propertyPath: cashRegisterSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 6dbd2d01ed5e6c445afa44d9a6e607ab, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_Volume
+      value: .949999988
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: scopeTexture
+      value: 
+      objectReference: {fileID: 21300000, guid: 9e9ce5b1eb6ce18449a76ce8fd46cd4c,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: mobileNavigation
+      value: 
+      objectReference: {fileID: 21300000, guid: 9b5112b19f8923546a2b34749ae9e7d9,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: navigationCircle
+      value: 
+      objectReference: {fileID: 21300000, guid: bb449b29e75f3e44e9cb18034c1a9271,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: navigationButton
+      value: 
+      objectReference: {fileID: 21300000, guid: 009e5962d71286a4aaaacc30122fcffd,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: fireIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: 603f8c014607ead4a9e521467047301c,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: gunFireIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: 603f8c014607ead4a9e521467047301c,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: gunReloadIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: 4ca62b4c717edfc4ca72b83b1a3b7215,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: gunAimIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: e913597ccb4bb0749b8744d47c630d03,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: jumpIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: fcea2db204a06de41822d8d6f2717787,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: panLevelCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: reverbZoneMixCustomCurve.m_RotationOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: chatInputPrefab
+      value: 
+      objectReference: {fileID: 159656, guid: 5e3d0a1b518f4454294dcf4cf61613a6, type: 2}
+    - target: {fileID: 0}
+      propertyPath: switchWeaponIcon
+      value: 
+      objectReference: {fileID: 21300000, guid: e5e6c4377b6e7e54bbc0c3a2486d7db5,
+        type: 3}
+    - target: {fileID: 0}
+      propertyPath: hitDetectorTexture
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f0318ccad8619d4cbddb284caf87525,
+        type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 144474}
+  m_IsPrefabParent: 1

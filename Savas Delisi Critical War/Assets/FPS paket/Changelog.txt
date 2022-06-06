@@ -1,0 +1,10 @@
+v1.1 (December 20, 2015)
+
+- Added mobile controls
+- Optimized performance on mobile devices
+- Updated Photon Cloud API
+- Updated compatibility with Unity 5.3
+
+v1.0 (December 1, 2015)
+
+- First release

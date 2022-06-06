@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: 27037f9590d034e47ae46e6b451211b2
+timeCreated: 1445554617
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Finger_01_01_L
+    100004: Finger_01_01_R
+    100006: Finger_01_02_L
+    100008: Finger_01_02_R
+    100010: Finger_01_L
+    100012: Finger_01_R
+    100014: Finger_02_01_L
+    100016: Finger_02_01_R
+    100018: Finger_02_02_L
+    100020: Finger_02_02_R
+    100022: Finger_02_L
+    100024: Finger_02_R
+    100026: Finger_03_01_L
+    100028: Finger_03_01_R
+    100030: Finger_03_02_L
+    100032: Finger_03_02_R
+    100034: Finger_03_L
+    100036: Finger_03_R
+    100038: Finger_04_01_L
+    100040: Finger_04_01_R
+    100042: Finger_04_02_L
+    100044: Finger_04_02_R
+    100046: Finger_04_L
+    100048: Finger_04_R
+    100050: Finger_05_01_L
+    100052: Finger_05_01_R
+    100054: Finger_05_02_L
+    100056: Finger_05_02_R
+    100058: Finger_05_L
+    100060: Finger_05_R
+    100062: Foot_IK_L
+    100064: Foot_IK_R
+    100066: Foot_L
+    100068: Foot_R
+    100070: ForeArm_IK_L
+    100072: ForeArm_IK_R
+    100074: ForeArm_L
+    100076: ForeArm_R
+    100078: Head
+    100080: mesh
+    100082: Neck
+    100084: Root
+    100086: Shin_L
+    100088: Shin_R
+    100090: Shoulder_L
+    100092: Shoulder_R
+    100094: //RootNode
+    100096: Spine3
+    100098: Spine_1
+    100100: Spine_2
+    100102: Thigh_IK_L
+    100104: Thigh_IK_R
+    100106: Thigh_L
+    100108: Thigh_R
+    100110: Toe_L
+    100112: Toe_R
+    100114: UMP
+    100116: UpperArm_IK_L
+    100118: UpperArm_IK_R
+    100120: UpperArm_L
+    100122: UpperArm_R
+    100124: Wrist_L
+    100126: Wrist_R
+    100128: Particle View 001
+    400000: Armature
+    400002: Finger_01_01_L
+    400004: Finger_01_01_R
+    400006: Finger_01_02_L
+    400008: Finger_01_02_R
+    400010: Finger_01_L
+    400012: Finger_01_R
+    400014: Finger_02_01_L
+    400016: Finger_02_01_R
+    400018: Finger_02_02_L
+    400020: Finger_02_02_R
+    400022: Finger_02_L
+    400024: Finger_02_R
+    400026: Finger_03_01_L
+    400028: Finger_03_01_R
+    400030: Finger_03_02_L
+    400032: Finger_03_02_R
+    400034: Finger_03_L
+    400036: Finger_03_R
+    400038: Finger_04_01_L
+    400040: Finger_04_01_R
+    400042: Finger_04_02_L
+    400044: Finger_04_02_R
+    400046: Finger_04_L
+    400048: Finger_04_R
+    400050: Finger_05_01_L
+    400052: Finger_05_01_R
+    400054: Finger_05_02_L
+    400056: Finger_05_02_R
+    400058: Finger_05_L
+    400060: Finger_05_R
+    400062: Foot_IK_L
+    400064: Foot_IK_R
+    400066: Foot_L
+    400068: Foot_R
+    400070: ForeArm_IK_L
+    400072: ForeArm_IK_R
+    400074: ForeArm_L
+    400076: ForeArm_R
+    400078: Head
+    400080: mesh
+    400082: Neck
+    400084: Root
+    400086: Shin_L
+    400088: Shin_R
+    400090: Shoulder_L
+    400092: Shoulder_R
+    400094: //RootNode
+    400096: Spine3
+    400098: Spine_1
+    400100: Spine_2
+    400102: Thigh_IK_L
+    400104: Thigh_IK_R
+    400106: Thigh_L
+    400108: Thigh_R
+    400110: Toe_L
+    400112: Toe_R
+    400114: UMP
+    400116: UpperArm_IK_L
+    400118: UpperArm_IK_R
+    400120: UpperArm_L
+    400122: UpperArm_R
+    400124: Wrist_L
+    400126: Wrist_R
+    400128: Particle View 001
+    4300000: mesh
+    4300002: UMP
+    7400000: Crouch_Idle
+    7400002: Crouch_Walk_Front
+    7400004: Crouch_Walk_Front_Left
+    7400006: Crouch_Walk_Front_Right
+    7400008: Death_Fall_1
+    7400010: Jump_Pose
+    7400012: Knife_Fire
+    7400014: Knife_Idle
+    7400016: Normal_Fire
+    7400018: Normal_Idle
+    7400020: Pistol_Fire
+    7400022: Pistol_Idle
+    7400024: Reload
+    7400026: Standing_Idle
+    7400028: Standing_Walk_Front
+    7400030: Standing_Walk_Front_Left
+    7400032: Standing_Walk_Front_Right
+    7400034: T_Pose
+    7400036: Killed_1
+    7400038: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: mesh
+    13700002: UMP
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Reload' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Finger_01_L' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

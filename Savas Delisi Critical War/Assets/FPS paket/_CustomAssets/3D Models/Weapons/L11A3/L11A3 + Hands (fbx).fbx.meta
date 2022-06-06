@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: c4bbed79ea581fb42b1cb199900f6c4d
+timeCreated: 1445649584
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: base
+    100004: Bone_L_003
+    100006: Bone_L_004
+    100008: Bone_L_005
+    100010: Bone_R_003
+    100012: Bone_R_004
+    100014: Bone_R_005
+    100016: ForeArm_IK_L
+    100018: ForeArm_IK_R
+    100020: ForeArm_L
+    100022: ForeArm_R
+    100024: //RootNode
+    100026: Mag
+    100028: mesh
+    100030: Pad_1
+    100032: Pad_2
+    100034: Reloader
+    100036: UpperArm_IK_L
+    100038: UpperArm_IK_R
+    100040: UpperArm_L
+    100042: UpperArm_R
+    100044: Weapon
+    100046: Wrist_L
+    100048: Wrist_L_001
+    100050: Wrist_L_002
+    100052: Wrist_L_003
+    100054: Wrist_L_004
+    100056: Wrist_L_005
+    100058: Wrist_L_006
+    100060: Wrist_L_007
+    100062: Wrist_L_008
+    100064: Wrist_L_009
+    100066: Wrist_L_010
+    100068: Wrist_L_011
+    100070: Wrist_L_012
+    100072: Wrist_L_013
+    100074: Wrist_L_014
+    100076: Wrist_L_015
+    100078: Wrist_L_016
+    100080: Wrist_R
+    100082: Wrist_R_001
+    100084: Wrist_R_002
+    100086: Wrist_R_003
+    100088: Wrist_R_004
+    100090: Wrist_R_005
+    100092: Wrist_R_006
+    100094: Wrist_R_007
+    100096: Wrist_R_008
+    100098: Wrist_R_009
+    100100: Wrist_R_010
+    100102: Wrist_R_011
+    100104: Wrist_R_012
+    100106: Wrist_R_013
+    100108: Wrist_R_014
+    100110: Wrist_R_015
+    100112: Wrist_R_016
+    400000: Armature
+    400002: base
+    400004: Bone_L_003
+    400006: Bone_L_004
+    400008: Bone_L_005
+    400010: Bone_R_003
+    400012: Bone_R_004
+    400014: Bone_R_005
+    400016: ForeArm_IK_L
+    400018: ForeArm_IK_R
+    400020: ForeArm_L
+    400022: ForeArm_R
+    400024: //RootNode
+    400026: Mag
+    400028: mesh
+    400030: Pad_1
+    400032: Pad_2
+    400034: Reloader
+    400036: UpperArm_IK_L
+    400038: UpperArm_IK_R
+    400040: UpperArm_L
+    400042: UpperArm_R
+    400044: Weapon
+    400046: Wrist_L
+    400048: Wrist_L_001
+    400050: Wrist_L_002
+    400052: Wrist_L_003
+    400054: Wrist_L_004
+    400056: Wrist_L_005
+    400058: Wrist_L_006
+    400060: Wrist_L_007
+    400062: Wrist_L_008
+    400064: Wrist_L_009
+    400066: Wrist_L_010
+    400068: Wrist_L_011
+    400070: Wrist_L_012
+    400072: Wrist_L_013
+    400074: Wrist_L_014
+    400076: Wrist_L_015
+    400078: Wrist_L_016
+    400080: Wrist_R
+    400082: Wrist_R_001
+    400084: Wrist_R_002
+    400086: Wrist_R_003
+    400088: Wrist_R_004
+    400090: Wrist_R_005
+    400092: Wrist_R_006
+    400094: Wrist_R_007
+    400096: Wrist_R_008
+    400098: Wrist_R_009
+    400100: Wrist_R_010
+    400102: Wrist_R_011
+    400104: Wrist_R_012
+    400106: Wrist_R_013
+    400108: Wrist_R_014
+    400110: Wrist_R_015
+    400112: Wrist_R_016
+    4300000: mesh
+    4300002: base
+    7400000: Fire
+    7400002: Idle
+    7400004: Reload
+    7400006: Take_In
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: base
+    13700002: mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 65
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

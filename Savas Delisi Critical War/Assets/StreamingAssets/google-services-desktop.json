@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "948695039372",
+    "firebase_url": "https://savas-delisi.firebaseio.com",
+    "project_id": "savas-delisi",
+    "storage_bucket": "savas-delisi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948695039372:android:ea1cccf389fad30a",
+        "android_client_info": {
+          "package_name": "com.muratunlu0.savasdelisi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948695039372-7d0cn83e9tolh9go67k4ksj86t3fnin8.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "948695039372-7d0cn83e9tolh9go67k4ksj86t3fnin8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjYuQJi_7yhJUiRW64TYIOP000uzkaJ94"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

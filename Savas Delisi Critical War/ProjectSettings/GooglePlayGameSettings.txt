@@ -1,0 +1,9 @@
+lastUpgrade=00950
+proj.pluginVersion=0.9.50
+proj.AppId=948695039372
+and.BundleId=com.muratunlu0.savasdelisi
+proj.classDir=Assets
+proj.ConstantsClassName=GPGSIds
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--%0d%0aGoogle+Play+game+services+IDs.%0d%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0d%0a--%3e%0d%0a%3cresources%3e%0d%0a++%3c%21--+app_id+--%3e%0d%0a++%3cstring+name%3d%22app_id%22+translatable%3d%22false%22%3e948695039372%3c%2fstring%3e%0d%0a++%3c%21--+package_name+--%3e%0d%0a++%3cstring+name%3d%22package_name%22+translatable%3d%22false%22%3ecom.muratunlu0.savasdelisi%3c%2fstring%3e%0d%0a++%3c%21--+achievement+WWW+--%3e%0d%0a++%3cstring+name%3d%22achievement_www%22+translatable%3d%22false%22%3eCgkIjPuFlc4bEAIQAQ%3c%2fstring%3e%0d%0a%3c%2fresources%3e
+and.ClientId=948695039372-7d0cn83e9tolh9go67k4ksj86t3fnin8.apps.googleusercontent.com
+android.SetupDone=true
